@@ -46,4 +46,4 @@ jobs:
           key: ${{ runner.os }}-sbt-cache-v4-${{ hashFiles('**/*.sbt') }}-${{ hashFiles('project/build.properties') }}
 
       - name: Build and test project
-        run: sbt ++${{ matrix.scala }} clean test it/test assembly
+        run: sbt clean test it/test assembly
