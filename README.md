@@ -1,3 +1,5 @@
+[![Scala CI](https://github.com/alessandrocandolini/shaxl/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/shaxl/actions/workflows/ci.yml)
+
 # shaxl
 
 ## Run
